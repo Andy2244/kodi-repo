@@ -17,7 +17,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="service.jellyskip" name="Jellyskip" version="1.1.0" provider-name="Jalau">
+    <addon id="service.jellyskip" name="Jellyskip" version="1.1.1" provider-name="Jalau">
     	<requires>
             <import addon="xbmc.python" version="3.0.0"/>
     	</requires>
@@ -38,7 +38,7 @@
     			<screenshot>resources/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshot-03.jpg</screenshot>
     		</assets>
-    		<news>v1.1.0: Add Auto Skip feature, fix replay/seek-back detection, 5s delay on initial play</news>
+    		<news>v1.1.1: Open settings on addon select. v1.1.0: Add Auto Skip, fix replay/seek-back, 5s delay on initial play</news>
     	</extension>
     </addon>
 </addons>
