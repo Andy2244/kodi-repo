@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="repository.andy2244" name="Andy2244's Repository" version="1.0.0" provider-name="Andy2244">
+        <extension point="xbmc.addon.repository" name="Andy2244's Repository">
+            <info compressed="false">https://raw.githubusercontent.com/Andy2244/kodi-repo/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Andy2244/kodi-repo/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Andy2244/kodi-repo/main/zips</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">Andy2244's Kodi Repository</summary>
+            <description lang="en">Repository for Kodi addons maintained by Andy2244, including Jellyskip.</description>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="service.jellyskip" name="Jellyskip" version="1.1.0" provider-name="Jalau">
+    	<requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+    	</requires>
+    	<extension point="xbmc.service" library="resources/lib/service.py"/>
+    	<extension point="xbmc.python.script" library="addon.py">
+    		<provides>executable</provides>
+    	</extension>
+    	<extension point="xbmc.addon.metadata">
+    		<platform>all</platform>
+    		<summary lang="en">Interact with Jellyfin Media Segments</summary>
+    		<description lang="en">Skip Jellyfin media segements with the click of a button</description>
+    		<license>GNU General Public License, v2</license>
+    		<language></language>
+    		<assets>
+    			<icon>icon.png</icon>
+    			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshot-03.jpg</screenshot>
+    		</assets>
+    		<news>v1.1.0: Add Auto Skip feature, fix replay/seek-back detection, 5s delay on initial play</news>
+    	</extension>
+    </addon>
+</addons>
