@@ -17,7 +17,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="service.jellyskip" name="Jellyskip" version="1.1.5" provider-name="Jalau">
+    <addon id="service.jellyskip" name="Jellyskip" version="1.1.6" provider-name="Jalau">
     	<requires>
             <import addon="xbmc.python" version="3.0.0"/>
     	</requires>
@@ -35,7 +35,7 @@
     			<icon>icon.png</icon>
     			<fanart>fanart.jpg</fanart>
     		</assets>
-    		<news>v1.1.5: Fix autoskip loop. v1.1.4: Fix 5s startup delay timing, fix autoskip UI artifact</news>
+    		<news>v1.1.6: Fix stale segments, 6s auto-hide, solid button. v1.1.5: Fix autoskip loop</news>
     	</extension>
     </addon>
 </addons>
